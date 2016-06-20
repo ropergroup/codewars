@@ -1,0 +1,14 @@
+def get_grade(s1, s2, s3)
+	sum =s1 + s2 + s3
+	mean = sum/3
+		if mean >= 90
+			return "A"
+		elsif mean >= 80
+			return "B"
+		elsif mean >= 70
+			return "C"
+		elsif mean >= 60
+			return "D"
+		else return "F"
+	end
+end
