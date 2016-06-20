@@ -1,0 +1,5 @@
+def sum(numbers)
+	numbers.map.inject(0, &:+)
+end
+
+sum([2,3,4])
