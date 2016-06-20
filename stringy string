@@ -1,0 +1,3 @@
+def stringy(size)
+  (1..size).map { |number| number.even? ? '0' : '1' }.join('')
+end
